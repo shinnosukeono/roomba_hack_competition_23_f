@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- map server -->
+    <include file="$(find navigation_tutorial)/launch/map_server.launch">
+    </include>
+
+    <!-- localization -->
+    <include file="$(find navigation_tutorial)/launch/amcl.launch">
+    </include>
+</launch>
